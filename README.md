@@ -1,4 +1,4 @@
-# Kinomix Button for Kinopoisk
+# Kinohub Button for Kinopoisk
 
 **Интегрированная в интерфейс** кнопка, которая направляет по прямой ссылке на просмотр фильма или сериала на **[Kinomix]([https://on.kinohub.vip])** прямо из интерфейса **[Кинопоиска](https://www.kinopoisk.ru)**.
 
