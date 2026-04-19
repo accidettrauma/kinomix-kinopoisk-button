@@ -13,6 +13,11 @@
 // @updateURL    https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
 // ==/UserScript==
 
+// === АВТООБНОВЛЕНИЕ ===
+@downloadURL  https://raw.githubusercontent.com/accidenttrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
+@updateURL    https://raw.githubusercontent.com/accidenttrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
+// ======================
+
 (function () {
     'use strict';
 
