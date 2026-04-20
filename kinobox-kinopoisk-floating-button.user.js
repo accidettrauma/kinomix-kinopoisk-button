@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name         Kinomix Floating Button
-// @namespace    https://github.com/accidettrauma/kinomix-kinopoisk-button
+// @name         Kinobox Floating Button
+// @namespace    https://github.com/accidettrauma/kinobox-kinopoisk-button
 // @version      0.1
-// @description  Плавающая кнопка Kinomix слева от карточки фильма (стабильный вариант)
+// @description  Плавающая кнопка kinobox слева от карточки фильма (стабильный вариант)
 // @author       accidettrauma
 // @match        https://www.kinopoisk.ru/film/*
 // @match        https://www.kinopoisk.ru/series/*
 // @grant        none
 // @run-at       document-end
-// @icon         https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/icon.png
-// @downloadURL  https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
-// @updateURL    https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
+// @icon         https://raw.githubusercontent.com/accidettrauma/kinobox-kinopoisk-button/main/icon.png
+// @downloadURL  https://raw.githubusercontent.com/accidettrauma/kinobox-kinopoisk-button/main/kinobox-kinopoisk-button.user.js
+// @updateURL    https://raw.githubusercontent.com/accidettrauma/kinobox-kinopoisk-button/main/kinobox-kinopoisk-button.user.js
 // ==/UserScript==
 
 (function () {
@@ -21,10 +21,10 @@
     }
 
     function createFloatingButton(filmId) {
-        if (document.getElementById('kinomix-floating-btn')) return;
+        if (document.getElementById('kinobox-floating-btn')) return;
 
         const btn = document.createElement('div');
-        btn.id = 'kinomix-floating-btn';
+        btn.id = 'kinobox-floating-btn';
         
         btn.style.cssText = `
             position: fixed;
@@ -73,10 +73,10 @@
             svg.style.fill = '#1f1f1f';
         };
 
-        btn.title = 'Открыть на Kinomix';
+        btn.title = 'Открыть на kinobox';
 
         document.body.appendChild(btn);
-        console.log(`[Kinomix Floating] Кнопка добавлена для ID ${filmId}`);
+        console.log(`[kinobox Floating] Кнопка добавлена для ID ${filmId}`);
     }
 
     function init() {
