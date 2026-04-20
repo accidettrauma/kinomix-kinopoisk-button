@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         kinobox Button for Kinopoisk
+// @name         Kinobox Button for Kinopoisk
 // @namespace    https://github.com/accidettrauma/kinobox-kinopoisk-button
 // @version      0.1
 // @description  Круглая кнопка рядом с кнопкой "Буду смотреть"
