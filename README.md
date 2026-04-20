@@ -10,7 +10,7 @@
 
 Установи **[Violentmonkey](https://violentmonkey.github.io)** / **[Tampermonkey](https://www.tampermonkey.net)**.
 
-Нажми сюда → **[Установить скрипт](https://raw.githubusercontent.com/accidettrauma/kinohub-kinopoisk-button/main/kinomix-kinopoisk-button.user.js)**
+Нажми сюда → **[Установить скрипт](https://raw.githubusercontent.com/accidenttrauma/kinohub-kinopoisk-button/refs/heads/main/kinomix-kinopoisk-button.user.js)**
 
 **[Версия](https://raw.githubusercontent.com/accidenttrauma/kinohub-kinopoisk-button/refs/heads/main/kinomix-kinopoisk-floating-button.user.js)** с плавующей кнопкой слева если возникнут проблемы с интерфейсом
 
