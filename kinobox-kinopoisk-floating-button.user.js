@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kinobox Floating Button
 // @namespace    https://github.com/accidettrauma/kinobox-kinopoisk-button
-// @version      0.1
+// @version      1.0
 // @description  Плавающая кнопка kinobox слева от карточки фильма (стабильный вариант)
 // @author       accidenttrauma
 // @match        https://www.kinopoisk.ru/film/*
